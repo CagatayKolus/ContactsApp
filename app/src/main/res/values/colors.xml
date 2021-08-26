@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#DDDDDD</color>
+    <color name="grey_light">#EFEEEE</color>
+    <color name="grey_dark">#8A8A8A</color>
+    <color name="black">#FF000000</color>
+    <color name="black80">#CC000000</color>
+    <color name="black60">#99000000</color>
+    <color name="black40">#66000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="blue">#039be5</color>
+    <color name="connectivity_success">#44A348</color>
+    <color name="connectivity_fail">#D33020</color>
+
+    <color name="columbia_blue">#B8D8D8</color>
+    <color name="weldon_blue">#7A9E9F</color>
+    <color name="stormcloud">#4F6367</color>
+    <color name="beige">#EEF5DB</color>
+    <color name="sunset_orange">#FE5F55</color>
+</resources>

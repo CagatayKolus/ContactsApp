@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:layout_marginBottom="1dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textview_item_contact_name_surname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/black80"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/textview_item_contact_company"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageview_item_label"
+        app:layout_constraintTop_toTopOf="@+id/imageview_item_label"
+        tools:text="John Doe" />
+
+    <TextView
+        android:id="@+id/textview_item_contact_company"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/montserrat_medium"
+        android:maxLines="1"
+        android:textColor="@color/black40"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageview_item_label"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageview_item_label"
+        app:layout_constraintTop_toBottomOf="@+id/textview_item_contact_name_surname"
+        tools:text="XYZ Group" />
+
+    <ImageView
+        android:id="@+id/imageview_item_label"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_user" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_right" />
+</androidx.constraintlayout.widget.ConstraintLayout>
